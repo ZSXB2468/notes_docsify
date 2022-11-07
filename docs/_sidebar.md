@@ -1,5 +1,3 @@
-# Table of contents
-
 * [README](README.md)
 * [Main](main.md)
     * [2022.10.24](main/20221024.md)
