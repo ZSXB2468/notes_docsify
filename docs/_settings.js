@@ -9,6 +9,7 @@ window.$docsify = {
     autoHeader: true,
     notFoundPage: true,
     formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+    auto2top: true,
     // pagination: {
     //     previousText: '上一章节',
     //     // or
