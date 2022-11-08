@@ -13,11 +13,13 @@ window.$docsify = {
     pagination: {
         previousText: {
             '/en/': 'PREVIOUS',
-            '/zh-cn/': '上一节'
+            '/zh-cn/': '上一节',
+            '/': '上一节'
         },
         nextText: {
             '/en/': 'NEXT',
-            '/zh-cn/': '下一节'
+            '/zh-cn/': '下一节',
+            '/': '下一节'
         },
         crossChapter: true,
         crossChapterText: true,
