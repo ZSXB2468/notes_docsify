@@ -10,14 +10,16 @@ window.$docsify = {
     notFoundPage: true,
     formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
     auto2top: true,
-    // pagination: {
-    //     previousText: '上一章节',
-    //     // or
-    //     nextText: {
-    //         '/en/': 'NEXT',
-    //         '/': '下一章节'
-    //     },
-    //     crossChapter: true,
-    //     crossChapterText: true,
-    // },
+    pagination: {
+        previousText: {
+            '/en/': 'PREVIOUS',
+            '/zh-cn/': '上一节'
+        },
+        nextText: {
+            '/en/': 'NEXT',
+            '/zh-cn/': '下一节'
+        },
+        crossChapter: true,
+        crossChapterText: true,
+    },
 }
