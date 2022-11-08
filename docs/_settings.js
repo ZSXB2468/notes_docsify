@@ -4,7 +4,7 @@ window.$docsify = {
     loadSidebar: true,
     subMaxLevel: 2,
     requestHeaders: {
-        'cache-control': 'no-store',
+        'cache-control': 'max-age=0, must-revalidate',
     },
     autoHeader: true,
     notFoundPage: true,
