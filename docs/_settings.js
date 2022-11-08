@@ -1,6 +1,6 @@
 window.$docsify = {
     name: '',
-    repo: '',
+    repo: 'ZSXB2468/notes_docsify',
     loadSidebar: true,
     subMaxLevel: 2
 }
