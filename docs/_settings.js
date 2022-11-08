@@ -6,4 +6,17 @@ window.$docsify = {
     requestHeaders: {
         'cache-control': 'no-cache',
     },
+    autoHeader: true,
+    notFoundPage: true,
+    formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+    pagination: {
+        previousText: '上一章节',
+        // or
+        nextText: {
+            '/en/': 'NEXT',
+            '/': '下一章节'
+        },
+        crossChapter: true,
+        crossChapterText: true,
+    },
 }
