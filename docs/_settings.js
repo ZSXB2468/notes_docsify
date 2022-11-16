@@ -1,7 +1,7 @@
 window.$docsify = {
     name: 'HOMEWORKS',
     // repo: 'ZSXB2468/notes_docsify',
-    loadSidebar: true,
+    // loadSidebar: true,
     // subMaxLevel: 2,
     requestHeaders: {
         'cache-control': 'no-store',
